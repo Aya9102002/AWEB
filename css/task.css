@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tasks {
+  padding: 20px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color:rgb(36, 35, 35);
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sort-box select {
+  padding: 5px;
+  border-radius: 4px;
+  background: #333;
+  color: white;
+  border: 1px solid #666;
+}
+
+.create-btn {
+  background-color: rgb(48, 99, 226); 
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.create-btn:hover{
+      background-color: rgb(35, 71, 162); 
+
+}
+
+.create-btn i {
+  margin-right: 5px;
+
+}
+.modal.show {
+  display: flex; 
+}
+
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  background-color: #262323;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+  table-layout: auto;
+}
+
+.task-table th,
+.task-table td {
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  border: none;
+}
+
+.task-table tr {
+  border-bottom: 1px solid #565353;
+}
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #2a2a2a;
+  padding: 20px;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h2 {
+  color: rgb(48, 99, 226); 
+}
+
+.close-btn {
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 7px;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+  padding: 8px;
+  background-color: #3a3a3a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.input-group textarea {
+  resize: vertical;
+  height: 60px;
+}
+
+.submit-btn {
+  background-color: #56e056;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
