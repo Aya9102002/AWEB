@@ -9,7 +9,7 @@ This repository contains a React frontend and a partially developed backend. The
 
 - Aya
 - Aseel Abdo
-- 
+  
 ## Branches
 
 - **`main`** — The complete frontend, built with React.
