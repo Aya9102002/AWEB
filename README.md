@@ -7,7 +7,7 @@ This repository contains a React frontend and a partially developed backend. The
 
 ## Team
 
-- Aya
+- Aya Tammam
 - Aseel Abdo
   
 ## Branches
