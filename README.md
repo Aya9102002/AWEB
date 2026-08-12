@@ -5,6 +5,11 @@
 
 This repository contains a React frontend and a partially developed backend. The backend integration with the frontend is **not complete**.
 
+## Team
+
+- Aya
+- Aseel Abdo
+- 
 ## Branches
 
 - **`main`** — The complete frontend, built with React.
